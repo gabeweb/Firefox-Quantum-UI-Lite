@@ -1,0 +1,5 @@
+/*FIREFOX BETA*/
+
+@-moz-document url-prefix(about:blank) {body{background:#003EAA; height:calc(90vh); margin: 0px;}}
+@-moz-document url-prefix(about:newtab) {body{background-color:#003EAA !important;}}
+/*@-moz-document url-prefix(about:home) {*{background-color:#F9F9FA !important;}}*/
