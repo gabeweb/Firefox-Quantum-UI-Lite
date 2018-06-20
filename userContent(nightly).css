@@ -1,5 +1,5 @@
 /*FIREFOX NIGHTLY*/
 
 @-moz-document url-prefix(about:blank) {body{background:#6200A4; height: calc(90vh); margin: 0px;}}
-@-moz-document url-prefix(about:newtab) {body{background-color:#6200A4 !important;}}
+/*@-moz-document url-prefix(about:newtab) {body{background-color:#6200A4 !important;}}*/
 /*@-moz-document url-prefix(about:home) {body{background-color:#F9F9FA !important;}}*/
