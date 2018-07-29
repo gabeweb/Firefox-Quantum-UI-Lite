@@ -113,3 +113,18 @@ photonpanelmultiview .panel-subview-body {
 .widget-overflow-list .toolbarbutton-1 > .toolbarbutton-icon {
 	opacity: 0.8 !important;
 }
+
+/* GPL-3.9 Copyright (C) 2007 Timvde/UserChrome-Tweaks; Code pulled from https://github.com/Timvde/UserChrome-Tweaks */
+/*
+ * Only show close buttons on background tabs when hovering with the mouse
+ *
+ * Contributor(s): Timvde
+ */
+
+ .tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+	display: none !important;
+  }
+  
+  .tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+	display: -moz-box !important;
+  }
